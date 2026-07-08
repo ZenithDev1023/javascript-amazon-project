@@ -1,4 +1,4 @@
-import { formatCurrency } from "../scripts/utils/money.js";
+import { formatCurrency } from "../../scripts/utils/money.js";
 
 // Describe: creates the test suite 
 // it: names the function and runs the test
