@@ -7,7 +7,6 @@ class Cart {
         this.#loadFromStorage();
     }
 
-
     #loadFromStorage() {
         this.cartItems = JSON.parse(localStorage.getItem(this.#localStorageKey));
 
@@ -25,11 +24,9 @@ class Cart {
         }
     }
 
-
     saveToStorage() {
         localStorage.setItem(this.#localStorageKey, JSON.stringify(this.cartItems));
     }
-
 
     addToCart(productId) {
     
